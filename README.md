@@ -1,10 +1,10 @@
-This repo contains the fix I've made for the plr.sh file of my Neptune 4, that uses software V1.1.2.41
+This repo contains the fix I've made for the plr.sh file of my Neptune 4, which uses software V1.1.2.41
 
 I do not guarantee that this fix is safe, and works with your slicer.
 
-All it should do, is to remove the starting comments (such as, model image and printer parameters) from your gcode in a more strict way, compared to the stock script. I did not bother trying to fix the original line, but the end result should not be affected.
+All it should do, is to remove the starting comments (such as model image and printer parameters) from your gcode in a more strict way, compared to the stock script. I did not bother trying to fix the original line, but the end result should not be affected.
 
-I've also added the "does the file exist?" check, that prints its result into the console, and remove the "set fan speed to 80%" part, as it is utterly pointless.
+I've also added the "Does the file exist?" check, which prints its result into the console, and removed the "set fan speed to 80%" part, as it is utterly pointless.
 
 * * *
 
